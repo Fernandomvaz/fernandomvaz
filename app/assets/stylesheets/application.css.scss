@@ -30,12 +30,12 @@ a {
 }
 
 #sidebar {
-	width: 250px;
+	width: 150px;
 	position: fixed;
 	left: 0;
 	top: 0;
 	height: 100%;
-	background: #f5f7f9;
+	background: #dfe3ee;
 	padding: 7em 0 0 0;
 	border-right: 1px solid #d6dce0;
 	#logo {
@@ -52,12 +52,12 @@ a {
 			font-weight: 700;
 			font-size: 0.7em;
 			text-transform: uppercase;
-			color: #33acb7;
+			color: #3b5998;
 		}
 		li {
 			padding: .5em 0;
 			a {
-				color: #9eafba;
+				color: #000000;
 				text-decoration: none;
 				transition: all .4s ease;
 				&:hover {
@@ -104,11 +104,11 @@ a {
 }
 
 #main_content {
-	margin-left: 250px;
+	margin-left: 150px;
 	#header {
 		padding: 1em 3em;
 		border-bottom: 1px solid #d6dce0;
-		background: #f5f7f9;
+		background: transparent;
 		color: #9eafba;
 		p {
 			display: inline;
