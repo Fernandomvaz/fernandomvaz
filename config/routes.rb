@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   end
 
 
-  root "posts#index"
+  root "pages#index"
 
   get '/about', to: 'pages#about'
+  get '/home', to: 'pages#index'
+  get '/gallery', to: 'pages#gallery'
 
 end
