@@ -5,23 +5,64 @@
 
 	#titlepg{
 		text-align: center;
+		text-transform: uppercase;
 
 	}
 
-	.centerimg{
+	.centerth{
 		margin: 0 auto;
 		width: 750px;
 		height: 100%;
 	}
+
 </style>
 
 <div id="page_wrapper">
-	<h1 id="titlepg">PODCASTS</h1>
-	<br>
-	<div class="centerimg">
-		<%= image_tag "jn.png" %><span id="space"></span><%= image_tag "anticast.png" %><span id="space"></span><%= image_tag "mamilos.png" %><span id="space"></span><%= image_tag "bc.png" %>
-	</div>
+	<% if user_signed_in? %>
+		<h1 id="titlepg">PODCASTS</h1>
+		<br>
+		<div class="centerth">
+			<a href="http://jovemnerd.com.br/categoria/nerdcast/"><%= image_tag "jn.png" %><span id="space"></span></a>
+			<a href="http://www.b9.com.br/podcasts/anticast/"><%= image_tag "anticast.png" %><span id="space"></span></a>
+			<a href="http://www.b9.com.br/61790/podcasts/mamilos/"><%= image_tag "mamilos.png" %><span id="space"></span></a>
+			<a href="http://www.b9.com.br/podcasts/braincast/"><%= image_tag "bc.png" %></a>
+		</div>
 
-	<br><br><br>
-	<h1 id="titlepg">LINKS PARA FRANCÊS</h1>
+		<br><br><br>
+		<h1 id="titlepg">LINKS PARA FRANCÊS</h1>
+		<div class="centerth">
+			<%= image_tag "france.png" %><br><br>
+			<a href="http://ielanguages.com/french1.html">http://ielanguages.com/french1.html</a><br>
+			<a href="http://www.bonjourdefrance.com/">http://www.bonjourdefrance.com/</a>
+		</div>
+
+		<h1 id="titlepg">ESTUDOS</h1>
+		<div class="centerth">
+			<a href="https://github.com/open-source-society/computer-science">https://github.com/open-source-society/computer-science</a><br>
+			<a href="https://www.coursera.org/">https://www.coursera.org/</a><br>
+			<a href="https://www.edx.org/course">https://www.edx.org/course</a><br>
+			<a href="https://www.udemy.com/">https://www.udemy.com/</a><br>
+			<a href="https://www.khanacademy.org/">https://www.khanacademy.org/</a><br>
+			CURSOS ATIVOS: BIG DATA EM SAÚDE, IOT, CALC I, CALC II.
+		</div>
+
+		<h1 id="titlepg">GUITARRA</h1>
+		<div class="centerth">
+			<a href="">LINK</a>
+			<a href="">LINK</a>
+		</div>
+
+		<h1 id="titlepg">Google DOCS</h1>
+		<div class="centerth">
+			<a href="https://docs.google.com/document/d/1-Hddkj-0ThP-NjSI5k1GXKfLlOONlUShukyTAXXP79A/edit">RANDOM GALORE</a><br>
+
+			<a href="https://docs.google.com/document/d/1hJ1RciIZiFK8nfXrgoiRmd36o2bVD7_moco4JoMFTO0/edit?usp=docs_home">BIG DATA EM SAÚDE</a>
+		</div>
+
+	<% end %>
+
+
+	<% if !user_signed_in? %>
+		<h1>PARA ESCREVER</h1>
+	<% end %>
 </div>
