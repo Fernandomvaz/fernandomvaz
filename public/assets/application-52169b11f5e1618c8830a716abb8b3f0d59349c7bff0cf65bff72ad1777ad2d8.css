@@ -1,0 +1,1178 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 10, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 99, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 111, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 119, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 128, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 137, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 146, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 155, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 163, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 171, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 175, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 186, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 194, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 205, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 213, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 357, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+td,
+th {
+  padding: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 77, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 98, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 170, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 174, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 290, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 356, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 367, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 376, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 387, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 396, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 405, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 416, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 421, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/_normalize.css.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 20, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 24, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* line 28, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+a {
+  color: inherit;
+}
+
+/* line 32, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar {
+  width: 150px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #3b5998;
+  padding: 7em 0 0 0;
+  border-right: 1px solid #d6dce0;
+}
+/* line 41, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar #logo {
+  width: 40px;
+  position: absolute;
+  right: 3em;
+  top: 3em;
+}
+/* line 47, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul {
+  list-style: none;
+  text-align: right;
+  padding-right: 3em;
+}
+/* line 51, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul .category {
+  font-weight: 700;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* line 57, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul li {
+  padding: .5em 0;
+}
+/* line 59, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+/* line 63, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul li a:hover {
+  color: #33acb7;
+}
+/* line 69, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar ul .active a {
+  color: #33acb7;
+}
+/* line 74, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#sidebar .sign_in {
+  position: absolute;
+  right: 3em;
+  top: 80%;
+  font-size: .8em;
+  color: #9eafba;
+}
+
+/* line 83, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+.button {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  border-radius: 1.5em;
+}
+/* line 89, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+.button:hover {
+  border: 1px solid #33acb7;
+  color: #33acb7;
+}
+/* line 92, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+.button:hover a {
+  color: #33acb7 !important;
+}
+
+/* line 98, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 106, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content {
+  margin-left: 150px;
+}
+/* line 108, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #header {
+  padding: 1em 3em;
+  border-bottom: 1px solid #d6dce0;
+  background: transparent;
+  color: #9eafba;
+}
+/* line 113, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #header p {
+  display: inline;
+}
+/* line 116, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #header a {
+  color: #9eafba;
+  text-decoration: none;
+}
+/* line 120, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #header .buttons {
+  float: right;
+  margin-top: -6px;
+}
+/* line 123, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #header .buttons .button {
+  font-size: .8em;
+  margin-left: .5em;
+}
+/* line 129, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper {
+  padding: 3em;
+  border-bottom: 1px solid #d6dce0;
+}
+/* line 132, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title {
+  margin: 0;
+}
+/* line 134, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #2a2f35;
+  font-size: 1.5em;
+}
+/* line 139, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .title a:hover {
+  color: #33acb7;
+}
+/* line 144, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .post_wrapper .date_and_author {
+  color: #9eafba;
+  margin: .5em 0 0 0;
+}
+/* line 149, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content {
+  padding: 1em 3em;
+}
+/* line 151, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .title {
+  font-weight: 500;
+  text-decoration: none;
+  color: #2a2f35;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+/* line 158, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .body {
+  font-size: 1.1em;
+  line-height: 1.75;
+}
+/* line 162, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content .date_and_author {
+  color: #9eafba;
+  margin: .5em 0 2em 0;
+}
+/* line 167, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments h2 {
+  margin: 3em 0 1em 0;
+  border-bottom: 1px solid #d6dce0;
+  padding-bottom: 0.5em;
+}
+/* line 172, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments h3 {
+  margin-top: 2em;
+}
+/* line 175, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment {
+  border-bottom: 1px solid #d6dce0;
+  padding: 1.5em 2em;
+}
+/* line 178, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .clear_both {
+  clear: both;
+}
+/* line 181, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment:after {
+  clear: both;
+}
+/* line 184, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content {
+  float: left;
+}
+/* line 186, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_name {
+  margin: 1em 0 0 0;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+/* line 191, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_body {
+  font-size: 1.2em;
+  margin: 0.2em 0 0 0;
+}
+/* line 195, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .comment_content .comment_time {
+  margin-top: 1.2em;
+  font-size: .8em;
+}
+/* line 200, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments .comment .button {
+  float: right;
+}
+/* line 204, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #post_content #comments input[type="text"], #main_content #post_content #comments textarea {
+  width: 50%;
+}
+/* line 209, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper {
+  padding: 3em;
+}
+/* line 211, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #profile_image {
+  width: 300px;
+  float: left;
+  margin-right: 2em;
+}
+/* line 215, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #profile_image img {
+  width: 100%;
+  border-radius: 0.35em;
+}
+/* line 221, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content h1 {
+  font-weight: 500;
+}
+/* line 224, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content p {
+  font-size: 1.1em;
+  line-height: 1.75;
+}
+/* line 228, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content #page_wrapper #content a {
+  color: #33acb7;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* line 235, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content .links {
+  margin: 2em 0;
+}
+/* line 238, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content input[type="text"], #main_content input[type="email"], #main_content input[type="password"], #main_content textarea {
+  width: 90%;
+  border: 1px solid #d6dce0;
+  border-radius: .35em;
+  margin-top: 10px;
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+/* line 246, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content input[type="text"] {
+  height: 35px;
+}
+/* line 249, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content textarea {
+  min-height: 180px;
+}
+/* line 252, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #d6dce0;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin-left: .5em;
+}
+/* line 260, /var/www/fernandomvaz.com/myapp/app/assets/stylesheets/application.css.scss */
+#main_content input[type="submit"]:hover {
+  border: 1px solid #33acb7;
+  color: #33acb7;
+}
